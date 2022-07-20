@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <style>
+        footer{
+            width: 100%;
+            height: 600px;
+        }
+        .top{
+            background-color:  #cbe1f1;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .outer{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 30% 23% 23%;
+            background-color: white;
+            margin: auto;
+          border-radius: 10px;
+          height: 260px;
+          gap: 10px;
+           justify-content: center;
+           align-items: center;
+          
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .inner{
+            display: grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 70px 70px;
+            gap: 27px;
+        }
+        .outer>div>h3{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .outer>div>h3+p{
+            font-family: 'Montserrat', sans-serif;
+            color: gray;
+        }
+       .mid{
+        background-image: url("https://s1.1zoom.me/b5050/69/Fitness_Workout_Brunette_girl_Hands_Dumbbells_Gym_587131_1920x1200.jpg");
+    height: 350px; 
+width: 100%;
+/* filter: brightness(20%); */
+    background-position:center top;
+  background-repeat: no-repeat;
+  background-size: cover; 
+ 
+  gap: 15px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+    .mid>div{
+        width: 100%;
+        margin: auto;
+        z-index: 100;
+        display: grid;
+        gap: 10px;
+  grid-template-columns:23% 25% 25% 13%; 
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  
+    }
+    .mid>div>div>p{
+       z-index: 1000; 
+       position:relative;
+       top:5px;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+}.mid>div>div>p:hover{
+      
+       color: blue;
+}  
+  .bottom{
+    background-color: #5a5353;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin-top: -18px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: blue;
+    text-decoration: none;
+  }
+
+    </style>
+</head>
+<body>
+   <footer>
+    <div class="top">
+        <div class="outer">
+             <div><h3>GET OUT MOBILE APP</h3>
+             <p>
+                Download and start your workout journey 
+
+             </p></div>
+             <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/12/qrcode_only.png" alt=""></div>
+             <div class="inner">
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/googleplay.png" alt=""></div>
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/appstore.png" alt=""></div>
+             </div>
+        </div>
+
+    </div>
+    <div class="mid">
+        <div>
+         <div>
+            <p>Elite Membership</p>
+            <p>Coach Mode</p>
+            <p><a href="signup.html">Signup</a></p>
+            <p><a href="login.html">Login</a></p>
+        </div>
+         <div>
+            <p>Workout Plans</p>
+            <p>Exercise Database</p>
+            <p>Help Center</p>
+            
+         </div>
+         <div>
+            <p>Blog</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+         </div>
+         <div>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>IP/DMCA Notices</p>
+            <p>Press & Media</p>
+         </div>
+        </div>
+    </div>
+    <div class="bottom">
+    <h3>Copyright © 2010-2022 Jefit, Inc.</h3>
+    <h3>All Rights Reserved</h3>
+    </div>
+   </footer> 
+</body>
+</html>

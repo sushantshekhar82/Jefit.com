@@ -20,6 +20,6 @@ Solo Project
  Do 3rd part
 
  Day 5
-  Elite membership whole page
+  Elite membership whole page 
  coach page whole
 

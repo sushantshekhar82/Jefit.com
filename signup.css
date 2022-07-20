@@ -5,7 +5,7 @@ body{
     background-size: cover;
 
 }
-body>img{
+body>a>img{
     width: 100px;
     display: block;
     margin: auto;
@@ -15,7 +15,7 @@ body>img{
 }
 .signupbox{
     width: 550px;
-    height: 800px;
+    height: auto;
     background-color:#EBF7FF;
     margin: auto;
     margin-top: 18px;
@@ -51,6 +51,53 @@ body>img{
 .signupbox>div>p+div+p{
     text-align: center;
 }
+label{
+    display: block;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input[type=text],input[type=email],input[type=password]{
+  width:470px ;
+  margin: auto;
+  display: block;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
 
+}
+input[type=radio]{
+    margin-left: 40px;
+    margin-top: 18px;
+   
+   
+}
 
+#submit
+{
+ width: 480px;
+ display: block;
+ height: 40px;
+ background-color: #50b6ff;
+ border-radius: 20px;
+ margin: auto;
+ border: none;
+ color: white;
+ margin-top: 20px;
+ font-size: 18px;
+ font-weight: bold;
+}
+#term{
+font-size: 14px;
+width: 450px;
+margin: auto;
+padding: 25px;
+}
+.tick{
+  
+   margin-left: 40px;
+   box-shadow: none;
+   width: 20px;
+   
+}
 

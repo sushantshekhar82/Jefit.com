@@ -21,5 +21,5 @@ Solo Project
 
  Day 5
   Elite membership whole page 
- coach page whole
+ coach page whole.
 

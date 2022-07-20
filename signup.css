@@ -1,0 +1,56 @@
+body{
+    /* background-image: url(hhttps://wallpaperaccess.com/full/720211.jpg); */
+    background-image: url(https://s1.1zoom.me/big0/394/Men_Muscle_Dumbbells_Workout_Smoke_Beautiful_585656_1280x853.jpg);
+   
+    background-size: cover;
+
+}
+body>img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+
+}
+.signupbox{
+    width: 550px;
+    height: 800px;
+    background-color:#EBF7FF;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+
+}
+.signupbox>div{
+    font-family: 'DM Sans', sans-serif;
+    color: #6e6e6e;
+}
+.signupbox>div>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color:black;
+    padding-top: 50px;
+    box-shadow:none;
+    text-align: center;
+}
+.signupbox>div>p{
+    text-align: center;
+    font-size: 18px;
+}
+.signupbox>div>p+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupbox>div>p+div>img{
+    width: 65px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.signupbox>div>p+div+p{
+    text-align: center;
+}
+
+
+

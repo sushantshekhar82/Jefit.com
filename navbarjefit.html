@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home:Jefit</title>
+    <style>
+   nav{
+    background-color:  #3CB8FF;
+    display: flex;
+    justify-content:space-around;
+align-items: center;
+width: 100%;
+height: 120px;
+   }
+   .menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+   }
+   ul {
+            padding: 0;
+            list-style: none;
+            background: transparent;
+          
+            
+        }
+ 
+        ul li {
+            display: block;
+            position: relative;
+            line-height: 8px;
+            text-align: left;
+            font-size: 15px;
+           
+        }
+        ul li a {
+            display: block;
+            padding: 8px 25px;
+            color: rgb(75, 75, 218);
+            text-decoration: none;
+            font-size:16px;
+            
+            font-family: "DM Sans", Sans-serif;
+        }
+        ul li a:hover {
+          
+            background: transparent;
+        }
+        ul li ul.dropdown {
+            
+            /* Set width of the dropdown */
+            background: white;
+            display: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+            width: 220px;
+        }
+        ul li:hover ul.dropdown {
+            display: block;
+            /* Display the dropdown */
+         
+        }
+    .color{
+        color: white;
+        font-size: 17px;
+        font-family: "DM Sans", Sans-serif;
+        line-height: 19px;
+    }
+    .color:hover{
+        color: rgb(214, 223, 231);
+        cursor: pointer;
+    }
+    .color1:hover{
+        background-color:  rgb(214, 223, 231);
+    }
+   #btn{
+     background-color: white;
+     border: none;
+     width: 150px;
+     height: 55px;
+     border-radius: 25px;
+     color: skyblue ;
+     font-size: 18px;
+     
+
+   }
+   
+    </style>
+</head>
+<body>
+  <nav>
+     <div><img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/12/jefit_logo_website_header-3.png" alt=""></div>
+     <div class="menu2">
+        <ul>
+            <li>
+                <a class="color" href="#">Get Jefit App</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="#">Workout App (ios)</a></li>
+                    <li class="color1"><a href="#">Workout App (Android)</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a class="color" href="#">Workout Plans</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="#">Pro-designed Plan</a></li>
+                    <li class="color1" ><a href="#">Create My Plan</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="color">Exercise Guide</p>    
+        <p class="color">Blog</p>  .
+        <p class="color">Coach</p>    
+        <p class="color">Elite</p> 
+        <p class="color">Login</p> 
+        <button id="btn">SIGN UP</button>    
+     </div>
+  </nav>  
+</body>
+</html>

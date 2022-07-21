@@ -69,6 +69,7 @@ height: 120px;
         font-size: 17px;
         font-family: "DM Sans", Sans-serif;
         line-height: 19px;
+        cursor: pointer;
     }
     .color:hover{
         color: rgb(214, 223, 231);
@@ -77,6 +78,15 @@ height: 120px;
     .color1:hover{
         background-color:  rgb(214, 223, 231);
     }
+    .color>a{
+        color:white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .color>a:hover{
+        background-color: rgb(214, 223, 231);
+    }
+    
    #btn{
      background-color: white;
      border: none;
@@ -86,7 +96,15 @@ height: 120px;
      color: skyblue ;
      font-size: 18px;
      
+     cursor: pointer;
+     
 
+   }
+   #btn>a{
+    font-family: "Work Sans", Sans-serif;
+    color: #48A9FF;
+        background-color: transparent;
+        text-decoration: none;
    }
    
     </style>
@@ -118,8 +136,8 @@ height: 120px;
         <p class="color">Blog</p>  .
         <p class="color">Coach</p>    
         <p class="color">Elite</p> 
-        <p class="color">Login</p> 
-        <button id="btn">SIGN UP</button>    
+        <p class="color"><a class="color1" href="login.html">Login</a></p> 
+       <button id="btn"> <a href="signup.html">SIGN UP</a></button>    
      </div>
   </nav>  
 </body>

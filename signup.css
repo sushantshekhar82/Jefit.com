@@ -10,6 +10,7 @@ body>a>img{
     display: block;
     margin: auto;
     padding-top: 10px;
+    cursor: pointer;
     /* border: 1px solid red; */
 
 }
@@ -47,6 +48,7 @@ body>a>img{
     width: 65px;
     margin-left: 25px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .signupbox>div>p+div+p{
     text-align: center;
@@ -64,12 +66,13 @@ input[type=text],input[type=email],input[type=password]{
   height: 45px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 
 }
 input[type=radio]{
     margin-left: 40px;
     margin-top: 18px;
-   
+    cursor: pointer;
    
 }
 
@@ -86,6 +89,7 @@ input[type=radio]{
  margin-top: 20px;
  font-size: 18px;
  font-weight: bold;
+ cursor: pointer;
 }
 #term{
 font-size: 14px;

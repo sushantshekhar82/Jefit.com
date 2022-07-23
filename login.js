@@ -2,16 +2,18 @@ let form=document.querySelector("form");
 
 let login=JSON.parse(localStorage.getItem("signupdata"));
 let login1=JSON.parse(localStorage.getItem("logindata"))||[];
+let session=localStorage.getItem("session")||[];
 
 form.addEventListener('submit', myfun )
-
+let flag="false";
 function myfun(event){
+
     event.preventDefault();
     let loginobj={
      
         email:document.querySelector("#email").value,
         password:document.querySelector("#password").value,
-        flag:true,
+        
       
        
     }
@@ -19,7 +21,8 @@ function myfun(event){
         login1.push(loginobj);
         localStorage.setItem("logindata",JSON.stringify(login1));
         alert("Login successful");
-        url_redirect("navbar.html");
+        localStorage.setItem("session",flag="true");
+        url_redirect("index.html");
 
     }else{
         alert("wrong email or password")

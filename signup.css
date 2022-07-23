@@ -1,0 +1,103 @@
+body{
+    /* background-image: url(hhttps://wallpaperaccess.com/full/720211.jpg); */
+    background-image: url(https://s1.1zoom.me/big0/394/Men_Muscle_Dumbbells_Workout_Smoke_Beautiful_585656_1280x853.jpg);
+   
+    background-size: cover;
+
+}
+body>a>img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+
+}
+.signupbox{
+    width: 550px;
+    height: auto;
+    background-color:#EBF7FF;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+
+}
+.signupbox>div{
+    font-family: 'DM Sans', sans-serif;
+    color: #6e6e6e;
+}
+.signupbox>div>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color:black;
+    padding-top: 50px;
+    box-shadow:none;
+    text-align: center;
+}
+.signupbox>div>p{
+    text-align: center;
+    font-size: 18px;
+}
+.signupbox>div>p+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupbox>div>p+div>img{
+    width: 65px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.signupbox>div>p+div+p{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input[type=text],input[type=email],input[type=password]{
+  width:470px ;
+  margin: auto;
+  display: block;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+
+}
+input[type=radio]{
+    margin-left: 40px;
+    margin-top: 18px;
+   
+   
+}
+
+#submit
+{
+ width: 480px;
+ display: block;
+ height: 40px;
+ background-color: #50b6ff;
+ border-radius: 20px;
+ margin: auto;
+ border: none;
+ color: white;
+ margin-top: 20px;
+ font-size: 18px;
+ font-weight: bold;
+}
+#term{
+font-size: 14px;
+width: 450px;
+margin: auto;
+padding: 25px;
+}
+.tick{
+  
+   margin-left: 40px;
+   box-shadow: none;
+   width: 20px;
+   
+}
+

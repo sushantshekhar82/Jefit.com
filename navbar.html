@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home:Jefit</title>
+    <style>
+   nav{
+    background-color:  #3CB8FF;
+    display: flex;
+    justify-content:space-around;
+align-items: center;
+width: 100%;
+height: 120px;
+position: sticky;
+top: 0;
+   }
+   .menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+   }
+   ul {
+            padding: 0;
+            list-style: none;
+            background: transparent;
+          
+            
+        }
+ 
+        ul li {
+            display: block;
+            position: relative;
+            line-height: 8px;
+            text-align: left;
+            font-size: 15px;
+           
+        }
+        ul li a {
+            display: block;
+            padding: 8px 25px;
+            color: rgb(75, 75, 218);
+            text-decoration: none;
+            font-size:16px;
+            
+            font-family: "DM Sans", Sans-serif;
+        }
+        ul li a:hover {
+          
+            background: transparent;
+        }
+        ul li ul.dropdown {
+            
+            /* Set width of the dropdown */
+            background: white;
+            display: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+            width: 220px;
+        }
+        ul li:hover ul.dropdown {
+            display: block;
+            /* Display the dropdown */
+         
+        }
+    .color{
+        color: white;
+        font-size: 17px;
+        font-family: "DM Sans", Sans-serif;
+        line-height: 19px;
+        cursor: pointer;
+    }
+    .color:hover{
+        color: rgb(214, 223, 231);
+        cursor: pointer;
+    }
+    .color1:hover{
+        background-color:  rgb(214, 223, 231);
+    }
+    .color>a{
+        color:white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .color>a:hover{
+        background-color: rgb(214, 223, 231);
+    }
+    
+   #btn{
+     background-color: white;
+     border: none;
+     width: 150px;
+     height: 55px;
+     border-radius: 25px;
+     color: skyblue ;
+     font-size: 18px;
+     
+     cursor: pointer;
+     
+
+   }
+   #btn>a{
+    font-family: "Work Sans", Sans-serif;
+    color: #48A9FF;
+        background-color: transparent;
+        text-decoration: none;
+   }
+   /* //navbar */
+   footer{
+            width: 100%;
+            height: 600px;
+        }
+        .top{
+            background-color:  #cbe1f1;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .outer{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 30% 23% 23%;
+            background-color: white;
+            margin: auto;
+          border-radius: 10px;
+          height: 260px;
+          gap: 10px;
+           justify-content: center;
+           align-items: center;
+          
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .inner{
+            display: grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 70px 70px; 
+            gap: 27px;
+        }
+        .outer>div>h3{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .outer>div>h3+p{
+            font-family: 'Montserrat', sans-serif;
+            color: gray;
+        }
+       .mid{
+        background-image: url("https://s1.1zoom.me/b5050/69/Fitness_Workout_Brunette_girl_Hands_Dumbbells_Gym_587131_1920x1200.jpg");
+    height: 350px; 
+width: 100%;
+/* filter: brightness(20%); */
+    background-position:center top;
+  background-repeat: no-repeat;
+  background-size: cover; 
+ 
+  gap: 15px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+    .mid>div{
+        width: 100%;
+        margin: auto;
+        z-index: 100;
+        display: grid;
+        gap: 10px;
+  grid-template-columns:23% 25% 25% 13%; 
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  
+    }
+    .mid>div>div>p{
+       z-index: 1000; 
+       position:relative;
+       top:5px;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+}.mid>div>div>p:hover{
+      
+       color: blue;
+}  
+  .bottom{
+    background-color: #5a5353;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin-top: -18px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: blue;
+    text-decoration: none;
+  }
+  .email{
+    font-size: 10px;
+  }
+  .javabtn{
+    display: none;
+  }
+
+    </style>
+</head>
+<body>
+  <nav>
+     <div><img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/12/jefit_logo_website_header-3.png" alt=""></div>
+     <div class="menu2">
+        <ul>
+            <li>
+                <a class="color" href="#">Get Jefit App</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank">Workout App (ios)</a></li>
+                    <li class="color1"><a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail" target="_blank">Workout App (Android)</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a class="color" href="#">Workout Plans</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="#">Pro-designed Plan</a></li>
+                    <li class="color1" ><a href="#">Create My Plan</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="color">Exercise Guide</p>    
+        <p class="color">Blog</p>  .
+        <p class="color">Coach</p>    
+        <p class="color">Elite</p> 
+        <p class="color" id="useremail"></p>
+        <p class="color" id="logout"></p>
+        <p class="color"><a  id="login1" class="color1" href="login.html">Login</a></p> 
+       <button id="btn" > <a  id="signup1" href="signup.html">SIGN UP</a></button>    
+     </div>
+  </nav>  
+  <footer>
+    <div class="top">
+        <div class="outer">
+             <div><h3>GET OUT MOBILE APP</h3>
+             <p>
+                Download and start your workout journey 
+
+             </p></div>
+             <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/12/qrcode_only.png" alt=""></div>
+             <div class="inner">
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/googleplay.png" alt=""></div>
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/appstore.png" alt=""></div>
+             </div>
+        </div>
+
+    </div>
+    <div class="mid">
+        <div>
+         <div>
+            <p>Elite Membership</p>
+            <p>Coach Mode</p>
+            <p><a href="signup.html">Signup</a></p>
+            <p><a href="login.html">Login</a></p>
+        </div>
+         <div>
+            <p>Workout Plans</p>
+            <p>Exercise Database</p>
+            <p>Help Center</p>
+            
+         </div>
+         <div>
+            <p>Blog</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+         </div>
+         <div>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>IP/DMCA Notices</p>
+            <p>Press & Media</p>
+         </div>
+        </div>
+    </div>
+    <div class="bottom">
+    <h3>Copyright © 2010-2022 Jefit, Inc.</h3>
+    <h3>All Rights Reserved</h3>
+    </div>
+   </footer> 
+</body>
+</html>
+<script>
+let session=localStorage.getItem("session");
+let data=JSON.parse(localStorage.getItem("logindata"));
+
+ 
+    if(session){
+    //    console.log(data[data.length-1].email,);
+  document.getElementById("login1").innerText="";
+ let x= document.getElementById("signup1");
+
+ x.setAttribute("class","email");
+ let y=document.getElementById("btn");
+ y.setAttribute("class","javabtn");
+ let p=document.getElementById("useremail");
+ p.innerText=data[data.length-1].email;
+ p.style.color="yellow";
+ let p2=document.getElementById("logout");
+ p2.innerText="Logout";
+ p2.addEventListener('click',logoutfun);
+ function logoutfun(){
+    localStorage.setItem("session1",flag="true");
+    alert("logout successfully");
+    localStorage.clear();
+    url_redirect("login.html");
+
+ }
+
+
+ }
+
+    function url_redirect(url){
+    var X = setTimeout(function(){
+        window.location.replace(url);
+        return true;
+    },300);
+
+    if( window.location = url ){
+        clearTimeout(X);
+        return true;
+    } else {
+        if( window.location.href = url ){
+            clearTimeout(X);
+            return true;
+        }else{
+            clearTimeout(X);
+            window.location.replace(url);
+            return true;
+        }
+    }
+    return false;
+};
+  
+</script>

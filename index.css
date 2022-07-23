@@ -1,3 +1,6 @@
+*{
+  font-family: "Montserrat", Sans-serif;
+}
 nav{
   background-color:  #3CB8FF;
   display: flex;
@@ -415,6 +418,46 @@ margin:10px ;
 padding: 10px;
 }
 
+.wrapper1{
+  width: 100%;
+  background-color: #f2f6ff;
+  padding: 10px;
+}
+.wrapper1 .carousel1{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel1 .card{
+  margin: 20px 0;
+/* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
+ .card>img{
+  
+  height: auto;
+  border-radius: 12px;
+  border: none;
+
+}
+.wrapper1>h1{
+  font-size: 45px;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+}
+.wrapper1>h1+p{
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+}
+.align{
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+  margin:10px ;
+  padding: 10px;
+}
 /* price body */
 .pricebody{
   background-image: url(https://wallpaperaccess.com/full/1484341.jpg);
@@ -501,5 +544,125 @@ margin-top: 12px;
 }
 
 
+/* carousel of div box */
+.pricebody1{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/VisualEditor_-_Icon_-_Block-quote.svg/1024px-VisualEditor_-_Icon_-_Block-quote.svg.png);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 
+  font-family: "Montserrat", Sans-serif;
+}
+.pricebody1>div:nth-child(1){
+  width: 340px;
+  height: 400px;
+ 
+ background-color: white;
+ opacity: 0.9;
+  
+  border-radius: 15px;
+  
+}
+.pricebody1>div>img{
+ width: 100px;
+ height: 80px;
+}
+.pricebody1>div>img+p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricebody1>div>img+p+p{
+ line-height: 25px;
+ color: gray;
+ width: 300px;
+ margin: auto;
+}
+.pricebody1>div>img+p+p+p{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.pricebody1>div>img+p+p+p+p{
+  text-align: center;
+  color: gray;
+}
+
+.pricebody1>div:nth-child(2){
+  width: 340px;
+  height: 450px;
+  box-sizing: border-box;
+  
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+ 
+}
+
+.pricebody1>div:nth-child(3){
+  width: 340px;
+  height: 490px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+/* BLOG section */
+.blog{
+  display: grid;
+  width: 90%;
+  grid-template-columns:30% 30%  30%;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #f2f6ff;
+}
+.blog>div{
+  width:350px ;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 30px;
+
+}
+.blog>div>img{
+width: 100%;
+height: auto;
+border-radius: 10px 10px 0 0;
+}
+.blog>div>img+h2{
+color: #1c2735;
+width: 310px;
+margin: auto;
+
+}
+.blog>div>img+h2+p{
+color: #b7b7b7;
+width: 310px;
+margin: auto;
+margin-top: 16px;
+font-size: 14px;
+
+}
+
+.blog>div>img+h2+p+p{
+color: #5a5a5a;
+width: 320px;
+margin: auto;
+
+}
+
+.blog>div>img+h2+p+p+button{
+background-color: #39b7ff;
+display: block;
+margin: auto;
+margin-top: 18px;
+}
 

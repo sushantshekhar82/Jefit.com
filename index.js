@@ -61,3 +61,16 @@ $(".carousel").owlCarousel({
       }
     }
   });
+  $(".carousel1").owlCarousel({
+    margin:10,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+      1000:{
+      items:3,
+      nav:false
+      }
+    }
+  });

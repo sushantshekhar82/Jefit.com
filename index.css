@@ -1,0 +1,668 @@
+*{
+  font-family: "Montserrat", Sans-serif;
+}
+nav{
+  background-color:  #3CB8FF;
+  display: flex;
+  justify-content:space-around;
+align-items: center;
+width: 100%;
+height: 120px;
+position: sticky;
+top: 0;
+z-index: 10;
+ }
+ .menu2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+ }
+ ul {
+          padding: 0;
+          list-style: none;
+          background: transparent;
+        
+          
+      }
+
+      ul li {
+          display: block;
+          position: relative;
+          line-height: 8px;
+          text-align: left;
+          font-size: 15px;
+         
+      }
+      ul li a {
+          display: block;
+          padding: 8px 25px;
+          color: rgb(75, 75, 218);
+          text-decoration: none;
+          font-size:16px;
+          
+          font-family: "DM Sans", Sans-serif;
+      }
+      ul li a:hover {
+        
+          background: transparent;
+      }
+      ul li ul.dropdown {
+          
+          /* Set width of the dropdown */
+          background: white;
+          display: none;
+          position: absolute;
+          z-index: 999;
+          left: 0;
+          width: 220px;
+      }
+      ul li:hover ul.dropdown {
+          display: block;
+          /* Display the dropdown */
+       
+      }
+  .color{
+      color: white;
+      font-size: 17px;
+      font-family: "DM Sans", Sans-serif;
+      line-height: 19px;
+      cursor: pointer;
+  }
+  .color:hover{
+      color: rgb(214, 223, 231);
+      cursor: pointer;
+  }
+  .color1:hover{
+      background-color:  rgb(214, 223, 231);
+  }
+  .color>a{
+      color:white;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  .color>a:hover{
+      background-color: rgb(214, 223, 231);
+  }
+  
+ #btn{
+   background-color: white;
+   border: none;
+   width: 150px;
+   height: 55px;
+   border-radius: 25px;
+   color: skyblue ;
+   font-size: 18px;
+   
+   cursor: pointer;
+   
+
+ }
+ #btn>a{
+  font-family: "Work Sans", Sans-serif;
+  color: #48A9FF;
+      background-color: transparent;
+      text-decoration: none;
+ }
+ /* //navbar */
+ footer{
+  margin-top: 70px;
+          width: 100%;
+          height: 600px;
+      }
+      .top{
+          background-color:  #cbe1f1;
+          height: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .outer{
+          width: 80%;
+          display: grid;
+          grid-template-columns: 30% 23% 23%;
+          background-color: white;
+          margin: auto;
+        border-radius: 10px;
+        height: 260px;
+        gap: 10px;
+         justify-content: center;
+         align-items: center;
+        
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .inner{
+          display: grid;
+          grid-template-columns: 80%;
+          grid-template-rows: 70px 70px; 
+          gap: 27px;
+      }
+      .outer>div>h3{
+          font-family: 'Montserrat', sans-serif;
+      }
+      .outer>div>h3+p{
+          font-family: 'Montserrat', sans-serif;
+          color: gray;
+      }
+     .mid{
+      background-image: url("https://s1.1zoom.me/b5050/69/Fitness_Workout_Brunette_girl_Hands_Dumbbells_Gym_587131_1920x1200.jpg");
+  height: 350px; 
+width: 100%;
+/* filter: brightness(20%); */
+  background-position:center top;
+background-repeat: no-repeat;
+background-size: cover; 
+
+gap: 15px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .mid>div{
+      width: 100%;
+      margin: auto;
+      z-index: 100;
+      display: grid;
+      gap: 10px;
+grid-template-columns:23% 25% 25% 13%; 
+grid-template-rows: auto;
+justify-content: center;
+align-items: center;
+
+  }
+  .mid>div>div>p{
+     z-index: 1000; 
+     position:relative;
+     top:5px;
+     color: white;
+     font-size: 18px;
+     font-weight: bold;
+}.mid>div>div>p:hover{
+    
+     color: blue;
+}  
+.bottom{
+  background-color: #5a5353;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  margin-top: -18px;
+  line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+  text-decoration: none;
+}
+.email{
+  font-size: 10px;
+}
+.javabtn{
+  display: none;
+}
+
+/* css of body */
+#body{
+  width: 100%;
+  height:auto;
+}
+.out{
+  width: 100%;
+  height: 750px; 
+  background: url(https://s1.1zoom.me/b5050/69/Fitness_Workout_Brunette_girl_Hands_Dumbbells_Gym_587131_1920x1200.jpg);
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.head{
+ 
+color: white;
+display: grid;
+font-family: "Montserrat", Sans-serif;
+grid-template-columns: 40% 50% ;
+gap:10px;
+width: 100%;
+height: 800px;
+justify-content: center;
+align-items: center;
+
+font-size: 24px;
+font-weight: bold;
+}
+.outer1{
+  display: grid;
+  height: 400px;
+  font-family: "Montserrat", Sans-serif;
+grid-template-columns: 100%;
+grid-template-rows: 230px 300px;
+gap:100px;
+
+justify-content: center;
+align-items: center;
+
+}
+.topimg{
+ width: 100%;
+ height: 500px;
+  
+}
+.topimg11{
+  width: 100%;
+  
+  
+}
+.topimg12{
+  width: 220px;
+  height: 220px;
+
+  
+}
+.inner1{
+  display: grid;
+  font-family: "Montserrat", Sans-serif;
+grid-template-columns: 45% 45%;
+grid-template-rows: 250px 250px;
+
+gap:10px;
+
+justify-content: center;
+align-items: center;
+}
+.inner2{
+  display: grid;
+  font-family: "Montserrat", Sans-serif;
+grid-template-columns: 90%;
+grid-template-rows: 100px 100px;
+
+gap:10px;
+
+justify-content: center;
+align-items: center;
+}
+.gridout{
+  font-family: "Montserrat", Sans-serif;
+  display: grid;
+  grid-template-columns: 95%;
+  grid-template-rows: 800px ;
+  justify-content: center;
+ padding-top: 100px;
+ padding-right: 25px;
+  align-items: center;
+  
+ 
+}
+.gridinl{
+  font-family: "Montserrat", Sans-serif;
+  display: grid;
+  width: 100%;
+  margin: auto;
+grid-template-columns:35% 65%;
+grid-template-rows: 700px;
+justify-content:center;
+align-items: center;
+text-align: center;
+
+
+
+ 
+}
+.gridinr{
+  font-family: "Montserrat", Sans-serif;
+  display: grid;
+  width: 100%;
+  margin: auto;
+grid-template-columns:70% 30%;
+grid-template-rows: 600px;
+justify-content:center;
+align-items: center;
+
+
+
+
+
+ 
+}
+
+
+
+.imggrid{
+  /* width: 700px;
+  height: 550px; */
+  width: 100%;
+  height: auto;
+}
+.ul {
+list-style: none;
+
+}
+.ul>li{
+  font-size: 20px;
+ text-align:inherit;
+ 
+ 
+}
+
+.ul .li:before {
+content: '✓';
+font-weight: bold;
+line-height: 30px;
+text-align: center;
+
+
+}
+.signupbtn{
+width: 160px;
+height: 40px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+border-radius: 30px;
+background-color:#00a9ff;
+border: none;
+text-align: center;
+}
+.signupbtn>a{
+text-decoration: none;
+color: white;
+}
+
+/* crousel image */
+.wrapper{
+width: 100%;
+background-color: #f2f6ff;
+padding: 10px;
+}
+.wrapper .carousel{
+max-width: 1000px;
+margin: auto;
+padding: 0 30px;
+}
+.carousel .card{
+margin: 20px 0;
+/* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
+.card>img{
+
+height: auto;
+border-radius: 12px;
+border: none;
+
+}
+.wrapper>h1{
+font-size: 45px;
+text-align: center;
+font-family: "Montserrat", Sans-serif;
+
+}
+.wrapper>h1+p{
+font-size: 20px;
+text-align: center;
+font-family: "Montserrat", Sans-serif;
+
+}
+.align{
+text-align: center;
+font-family: "Montserrat", Sans-serif;
+
+margin:10px ;
+padding: 10px;
+}
+
+.wrapper1{
+  width: 100%;
+  background-color: #f2f6ff;
+  padding: 10px;
+}
+.wrapper1 .carousel1{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel1 .card{
+  margin: 20px 0;
+/* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
+ .card>img{
+  
+  height: auto;
+  border-radius: 12px;
+  border: none;
+
+}
+.wrapper1>h1{
+  font-size: 45px;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+}
+.wrapper1>h1+p{
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+}
+.align{
+  text-align: center;
+  font-family: "Montserrat", Sans-serif;
+
+  margin:10px ;
+  padding: 10px;
+}
+/* price body */
+.pricebody{
+  background-image: url(https://wallpaperaccess.com/full/1484341.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  font-family: "Montserrat", Sans-serif;
+}
+.pricebody>div:nth-child(1){
+  width: 340px;
+  height: 400px;
+  background-color: white;
+  margin-left: 40px;
+  
+  border-radius: 15px;
+  
+}
+.pricebody>div>p{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.pricebody>div>p+h1{
+  text-align: center;
+  color: #39b7ff;
+}
+.pricebody ul{
+  text-align:justify;
+  columns: red    ;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  color: #54595f;
+  font-size: 17px;
+}
+.pricebody ul>li{
+  font-size: 17px;
+}
+.pricebody button{
+  display: block;
+  width: 200px;
+height: 40px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+border-radius: 30px;
+background-color:#00a9ff;
+
+border: none;
+text-align: center;
+margin: auto;
+margin-top: 12px;
+}
+.pricebody button+p{
+  color: #54595f;
+  text-align: center;
+}
+.pricebody>div:nth-child(2){
+  width: 340px;
+  height: 450px;
+  box-sizing: border-box;
+  
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+ 
+}
+
+.pricebody>div:nth-child(3){
+  width: 340px;
+  height: 490px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+
+
+/* carousel of div box */
+.pricebody1{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/VisualEditor_-_Icon_-_Block-quote.svg/1024px-VisualEditor_-_Icon_-_Block-quote.svg.png);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Montserrat", Sans-serif;
+}
+.pricebody1>div:nth-child(1){
+  width: 340px;
+  height: 400px;
+ 
+ background-color: white;
+ opacity: 0.9;
+  
+  border-radius: 15px;
+  
+}
+.pricebody1>div>img{
+ width: 100px;
+ height: 80px;
+}
+.pricebody1>div>img+p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricebody1>div>img+p+p{
+ line-height: 25px;
+ color: gray;
+ width: 300px;
+ margin: auto;
+}
+.pricebody1>div>img+p+p+p{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.pricebody1>div>img+p+p+p+p{
+  text-align: center;
+  color: gray;
+}
+
+.pricebody1>div:nth-child(2){
+  width: 340px;
+  height: 450px;
+  box-sizing: border-box;
+  
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+ 
+}
+
+.pricebody1>div:nth-child(3){
+  width: 340px;
+  height: 490px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+/* BLOG section */
+.blog{
+  display: grid;
+  width: 90%;
+  grid-template-columns:30% 30%  30%;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #f2f6ff;
+}
+.blog>div{
+  width:350px ;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 30px;
+
+}
+.blog>div>img{
+width: 100%;
+height: auto;
+border-radius: 10px 10px 0 0;
+}
+.blog>div>img+h2{
+color: #1c2735;
+width: 310px;
+margin: auto;
+
+}
+.blog>div>img+h2+p{
+color: #b7b7b7;
+width: 310px;
+margin: auto;
+margin-top: 16px;
+font-size: 14px;
+
+}
+
+.blog>div>img+h2+p+p{
+color: #5a5a5a;
+width: 320px;
+margin: auto;
+
+}
+
+.blog>div>img+h2+p+p+button{
+background-color: #39b7ff;
+display: block;
+margin: auto;
+margin-top: 18px;
+}
+

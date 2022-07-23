@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home| Jefit-#1 Gym/Home Workout App</title>
+     <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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">
+   
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+ 
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+     <div><img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/12/jefit_logo_website_header-3.png" alt=""></div>
+     <div class="menu2">
+        <ul>
+            <li>
+                <a class="color" href="#">Get Jefit App</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="https://apps.apple.com/app/apple-store/id449810000" target="_blank">Workout App (ios)</a></li>
+                    <li class="color1"><a href="https://play.google.com/store/apps/details?id=je.fit&referrer=utm_source%3Demail" target="_blank">Workout App (Android)</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a class="color" href="#">Workout Plans</a>
+                <ul class="dropdown">
+                    <li class="color1" ><a href="#">Pro-designed Plan</a></li>
+                    <li class="color1" ><a href="#">Create My Plan</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="color">Exercise Guide</p>    
+        <p class="color">Blog</p>  .
+        <p class="color">Coach</p>    
+        <p class="color">Elite</p> 
+        <p class="color" id="useremail"></p>
+        <p class="color" id="logout"></p>
+        <p class="color"><a  id="login1" class="color1" href="login.html">Login</a></p> 
+       <button id="btn" > <a  id="signup1" href="signup.html">SIGN UP</a></button>    
+     </div>
+  </nav> 
+  <div id="body">
+    <div class="out">
+    <div class="head">
+        
+        <div class="outer1">
+            <div>
+             <h1>MANAGE & TRACK ALL YOUR WORKOUT IN ONE PLACE</h1>
+             <p>#1 Popular Workout Tracking Platform</p>
+            </div>
+            <div class="inner1">
+                <div class="inner2">
+                    <div><img class="topimg11" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/googleplay.png.webp" alt=""></div>
+                    <div><img  class="topimg11" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/appstore.png.webp" alt=""></div>
+              
+                   </div>
+               <div>
+                <img class="topimg12" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/qrcode_white.png.webp" alt="">
+            </div>
+              
+            </div>
+        </div>
+        <div>
+            <img class="topimg" src="https://cdn.jefit.com/wp/wp-content/uploads/2022/03/website_hero_watch-1536x1280.webp" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="wrapper">
+      <h1>CONNECT WITH OVER 10 MILLION JEFIT MEMBERS</h1>
+      <p>As the most active workout community, we invite you and your friends to join us and support each other. </p>
+      <div class="carousel owl-carousel">
+       <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/1members-pgstmm3y0kzdcgqryff2rjsjfk24y74zdzrejst12o.png" alt=""></div>
+       <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/20members-pgstqsi4e2p8y2obk8fduhuah7gv5rq1ao53c2m1f4.png" alt=""></div>
+       <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/18members-pgstovvwj63bejfzowrmah5n42v2jv5mp8inavfs1c.png" alt=""></div>
+       
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/17members-pgsto3oqu50pq8ky9kkt7o9taiq24y1olcy2wkll80.png" alt=""></div>
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/13members-pgstn07iv3io6m6ao3ihay8gcc4n5noyfxjoqy84hc.png" alt=""></div>
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/10members-pgstlr39r1swpbztzk0dz9mbtub0w6pu9q8dpo30s0.png" alt=""></div>
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/4members-pgstjrnjbn346yvlkp4qprnaok34n6u8nwnh8n0xww.png" alt=""></div>
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/5members-pgstk5r465mf14b4ad859637lc5mune7pufrfsg1bk.png" alt=""></div>
+         <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/12members-pgstq18svvnxldrwzen7c6px9177yjptix80f1qgfk.png" alt=""></div>
+         
+           <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/16members-pgstp9zhdomm8oviekv0tvlk0uxkrbplr6axi0uvg0.png" alt=""></div>
+           <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/14members-pgstncffbxzedjojoqsmpd5g2cgexq1gtm0zzjq08g.png" alt=""></div>
+           <div class="card card1"><img src="https://cdn.jefit.com/wp/wp-content/uploads/elementor/thumbs/6members-pgstm64osedhv3dzjqif35tpc08wbcdjnso5e3gq0g.png" alt=""></div>
+          
+     </div>
+     <button class="signupbtn" style="margin: auto;display: block;"><a href="signup.html">JOIN NOW</a></button>
+    </div>
+    <h1 class="align">JEFIT COVERS ALL OF YOUR WORKOUT NEEDS</h1>
+  
+   <div class="gridout">
+    <div class="gridinl">
+         <div>
+            <h1>PERSONALIZE YOUR WORKOUT PLANS1</h1>
+            <ul class="ul">
+                <li class="li"> 1400+ exercises with instructions</li>
+                <li class="li"> Pro-designed workout plans</li>
+                <li class="li"> Support custom exercises</li>
+                <li class="li"> Flexible workout planning tool</li>
+               
+              </ul>
+              <button class="signupbtn"><a href="signup.html">SIGN UP NOW</a></button>
+         </div>
+         <div><img  class="imggrid" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/web_create-2-1536x1536.png.webp" alt=""></div>
+                </div>
+    
+
+
+   </div>
+  
+   <div class="gridout">
+    <div class="gridinr">
+      <div><img class="imggrid" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/web_create-2-1536x1536.png.webp" alt=""></div>
+         <div>
+            <h1>PERSONALIZE YOUR WORKOUT PLANS1</h1>
+            <ul class="ul">
+                <li class="li"> 1400+ exercises with instructions</li>
+                <li class="li"> Pro-designed workout plans</li>
+                <li class="li"> Support custom exercises</li>
+                <li class="li"> Flexible workout planning tool</li>
+               
+              </ul>
+              <button class="signupbtn"><a href="signup.html">SIGN UP NOW</a></button>
+         </div>
+        
+                </div>
+    
+
+
+   </div>
+   <div class="gridout">
+    <div class="gridinl">
+         <div>
+            <h1>PERSONALIZE YOUR WORKOUT PLANS1</h1>
+            <ul class="ul">
+                <li class="li"> 1400+ exercises with instructions</li>
+                <li class="li"> Pro-designed workout plans</li>
+                <li class="li"> Support custom exercises</li>
+                <li class="li"> Flexible workout planning tool</li>
+               
+              </ul>
+              <button class="signupbtn"><a href="signup.html">SIGN UP NOW</a></button>
+         </div>
+         <div><img class="imggrid" src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/web_create-2-1536x1536.png.webp" alt=""></div>
+                </div>
+    
+
+
+   </div>
+   <h1 style="text-align:center;">PLANS THAT SUIT YOU BEST</h1>
+   <div class="pricebody">
+    
+        <div>
+          <p>Basic</p>
+          <h1>FREE</h1>
+          <p>ads supported</p>
+          <ul class="ul">
+            <li class="li">Flexible workout planner</li>
+            <li class="li">Top-notch log tracker</li>
+            <li class="li">1400+ exercises library</li>
+            <li class="li">Body stats tracking tools</li>
+            <li class="li">Support interval training</li>
+           
+          </ul>
+          <button>FREE DOWNLOAD</button>
+
+        </div>
+        <div>
+          <p>Elite Monthly</p>
+          <h1>$12.99</h1>
+          <p>per month</p>
+          <ul class="ul">
+            <li class="li">All BASIC plan features</li>
+            <li class="li">No ads</li>
+            <li class="li">Comprehensive training reports</li>
+            <li class="li">Compare records with friends</li>
+            <li class="li">Exercise tips from JEFIT experts</li>
+            <li class="li">Premium workout plans</li>
+            <li class="li">More...</li>
+
+           
+          </ul>
+          <button>FREE DOWNLOAD</button>
+          <p>$12.99 billed / month</p>
+
+        </div>
+        <div>
+          <p>Elite Yearly</p>
+          <h1>$5.83</h1>
+          <p>per month</p>
+          <ul class="ul">
+            <li class="li">All BASIC plan features</li>
+            <li class="li">No ads</li>
+            <li class="li">Comprehensive training reports</li>
+            <li class="li">Compare records with friends</li>
+            <li class="li">Exercise tips from JEFIT experts</li>
+            <li class="li">Premium workout plans</li>
+            <li class="li">More...</li>
+            <li class="li">Save 55%</li>
+           
+          </ul>
+          <button>FREE DOWNLOAD</button>
+          <p>$69.99 billed / year</p>
+        </div>
+
+   </div>
+   <div class="wrapper1">
+   <div class="carousel1 owl-carousel">
+     <div class="card card1"> 
+       <div class="pricebody1">
+    
+        <div>
+          <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/06/Sports-Illustrated-Logo-PNG3.webp" alt="">
+          <p>Sports Illustrated</p>
+          <p>Jefit is a solid choice for those who want an easy way to keep track of their exercise and strength training progression. If you want a fitness app that provides insights such as training reports that show you metrics like total weight lifted from previous workouts, we recommend giving Jefit a try.</p>
+          <p>SI Showcase</p>
+          <p>Editor</p>
+ 
+         </div>
+    </div>
+    </div>
+     <div class="card card1"> <div class="pricebody1">
+    
+      <div>
+        <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/06/Forbes_Logo-BlackOnWhite@png.webp" alt="">
+        <p>Forbes</p>
+        <p>I’m still surprised at the number of people I see at the gym using a pen and pad to log their 
+           workout... JEFIT strikes the right balance offering enough features for free with a low
+            maintenance interface that quickly gets out of the way in between sets.
+            </p>
+        <p>Alena Hall</p>
+        <p>Editor</p>
+
+       </div>
+  </div></div>
+     <div class="card card1">
+      <div class="pricebody1">
+    
+        <div>
+          <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/menshealth-logo-300x130-1.png.webp" alt="">
+          <p>Mens Health</p>
+          <p>Remember how you used to walk around the gym with a notepad to write down every single exercise? This app can replace that old paper and give it an infusion of smarts.</p>
+          <p>SCOTT BAY</p>
+          <p>Journalist</p>
+ 
+         </div>
+    </div></div>
+     
+       <div class="card card1"> <div class="pricebody1">
+    
+        <div>
+          <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/USA-Today-Logo-1.png.webp" alt="">
+          <p>USA TODAY</p>
+          <p>I like the app Jefit, which is like having a personal trainer in your pocket. You pick the workout--for instance, here's the 3 months from Fat to Fit--and it tells you exactly what to do, in text and diagram. So let's get to work on those lunges!</p>
+          <p>Jefferson Graham</p>
+          <p>Tecnology columnist</p>
+ 
+         </div>
+    </div></div>
+       <div class="card card1"> <div class="pricebody1">
+    
+        <div>
+          <img src="https://cdn.jefit.com/wp/wp-content/uploads/2021/11/The-Australian.png.webp" alt="">
+          <p>The Australian</p>
+          <p>I’m still surprised at the number of people I see at the gym using a pen and pad to log their workout... JEFIT strikes the right balance offering enough features for free with a low maintenance interface that quickly gets out of the way in between sets.</p>
+          <p>The Australian</p>
+          <p>Editor</p>
+ 
+         </div>
+    </div></div>
+       
+   </div>
+   <div class="blog">
+       <div>
+        <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/man-foam-rolling-athlete-stretches-using-foam-roller-scaled.jpg" alt="">
+      <h2>HEALTH BENEFITS SEEN WITH A FEW MINUTES OF FOAM ROLLING</h2> 
+      <p>Posted by Michael Wood, CSCSJuly 20, 2022</p>
+      <p>A recent article in the New York Times looked at the benefits of using a foam roller. In theory, rolling…</p>
+    <button class="signupbtn">READ MORE</button>
+    </div>
+    <div>
+      <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-strength-exercises-training-his-lower-body-wellness-healthy-lifestyle-bodybuilding-concept-1-scaled.webp" alt="">
+    <h2>SOME OF THE BEST BULKING PROGRAMS OFFERED BY JEFIT APP</h2> 
+    <p>Posted by Michael Wood, CSCSJuly 18, 2022</p>
+    <p>A question came in recently in our Q&A section on the Jefit app regarding best bulking programs. To find this…</p>
+  <button class="signupbtn">READ MORE</button>
+  </div>
+  <div>
+    <img src="https://cdn.jefit.com/wp/wp-content/uploads/2022/07/annoyed-woman-covering-her-ears-with-pillows-block-out-snoring-bedroom-scaled.webp" alt="">
+  <h2>QUALITY OF SLEEP IS IMPORTANT FOR MUSCLE GROWTH</h2> 
+  <p>Posted by Michael Wood, CSCSJuly 15, 2022</p>
+  <p>When you end up not getting quality sleep during the night, you typically feel "off" throughout the next day. Not…
+  </p>
+<button class="signupbtn">READ MORE</button>
+</div>
+   </div>
+
+</div> 
+  
+  <footer>
+    <div class="top">
+        <div class="outer">
+             <div><h3>GET OUT MOBILE APP</h3>
+             <p>
+                Download and start your workout journey 
+
+             </p></div>
+             <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/12/qrcode_only.png" alt=""></div>
+             <div class="inner">
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/googleplay.png" alt=""></div>
+                  <div><img src="https://www.jefit.com/wp/wp-content/uploads/2021/11/appstore.png" alt=""></div>
+             </div>
+        </div>
+
+    </div>
+    <div class="mid">
+        <div>
+         <div>
+            <p>Elite Membership</p>
+            <p>Coach Mode</p>
+            <p><a href="signup.html">Signup</a></p>
+            <p><a href="login.html">Login</a></p>
+        </div>
+         <div>
+            <p>Workout Plans</p>
+            <p>Exercise Database</p>
+            <p>Help Center</p>
+            
+         </div>
+         <div>
+            <p>Blog</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+         </div>
+         <div>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>IP/DMCA Notices</p>
+            <p>Press & Media</p>
+         </div>
+        </div>
+    </div>
+    <div class="bottom">
+    <h3>Copyright © 2010-2022 Jefit, Inc.</h3>
+    <h3>All Rights Reserved</h3>
+    </div>
+   </footer> 
+</body>
+</html>
+<script src="index.js"></script>

@@ -18,6 +18,12 @@ z-index: 10;
   align-items: center;
   width: 70%;
  }
+ .acro>a{
+  color: white;
+}
+.acro>a:hover{
+  color: white;
+}
  ul {
           padding: 0;
           list-style: none;

@@ -10,6 +10,7 @@ let data=JSON.parse(localStorage.getItem("logindata"));
  x.setAttribute("class","email");
  let y=document.getElementById("btn");
  y.setAttribute("class","javabtn");
+ y.style.display="none";
  let p=document.getElementById("useremail");
  p.innerText=data[data.length-1].email;
  p.style.color="yellow";

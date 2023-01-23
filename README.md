@@ -1,25 +1,20 @@
-# abject-history-7359
-Solo Project
- git branch -m "new-branch-name"{change day1 to day2}
- Day 2
-  signup page layout
- signup DOM functionality and store data in localstorage
- signup validation
- footer
- 
- Day 3:
- Navbar
- login page layout
- login Dom functionality and store in localstorage
- login validation
+<h1>Jefit.com</h1>
+Jefit is an American fitness gym website. This website provides you all the exercise tips and direct connect to the coach for better mentor.
 
- Day 4:
-  Home page divide in three parts -
- Do 1st part
- Do 2nd part
- Do 3rd part
+<h2>Home page</h2>
+<img src="https://user-images.githubusercontent.com/105901300/214108145-b01daa0d-09dd-49aa-8479-6f8244d92531.png" alt="jefit.com"/>
 
- Day 5
-  Elite membership whole page 
- coach page whole.
+<h2>Signup page</h2>
+<img src="https://user-images.githubusercontent.com/105901300/214108594-7112c9d5-75ac-4b2d-a02d-b9394e518824.png" alt="jefit.com"/>
+
+<h2>Login page</h2>
+<img src="https://user-images.githubusercontent.com/105901300/214108702-85f40626-fe48-4101-8a0a-573c2e3186b4.png" alt="jefit.com"/>
+
+<h2>Elite page</h2>
+<img src="https://user-images.githubusercontent.com/105901300/214108885-2ed69d59-287b-4835-8f0a-9efdfa2a04fa.png" alt="jefit.com"/>
+
+<h2>After Signin Coach page</h2>
+<img src="https://user-images.githubusercontent.com/105901300/214109357-9e8627ce-315f-44f2-8c8b-3fd73041da9a.png" alt="jefit.com"/>
+
+
 
